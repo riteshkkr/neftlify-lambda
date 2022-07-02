@@ -1,0 +1,22 @@
+{
+	"name": "netlify-aws-function",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"lambda-serve": "netlify-lambda serve functions",
+		"lambda-build": "netlify-lambda build functions"
+	},
+	"keywords": [],
+	"author": "ANIL KUMAR",
+	"license": "MIT",
+	"dependencies": {
+		"knex": "^2.1.0",
+		"koa": "^2.13.4",
+		"mysql2": "^2.3.3",
+		"netlify-lambda": "^2.0.15"
+	}
+}
